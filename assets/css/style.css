@@ -2,6 +2,9 @@
   color: #ffffff;
   margin: 0;
   padding: 0;
+  font-family: "Kantumruy Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 a,
@@ -24,11 +27,8 @@ body {
   );
 }
 
-/* CONTAINER */
-
 .container {
-  margin: 0 auto;
-  max-width: 1800px;
+  padding: 0 100px;
 }
 
 /* Header */
@@ -43,18 +43,43 @@ body {
 
 .header-navbar {
   display: flex;
-  font-family: "Kantumruy Pro", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 100;
   font-size: 20px;
-  font-style: normal;
   gap: 80px;
 }
 
 .header-logo {
-  font-family: "Kantumruy Pro", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-size: 36px;
-  font-style: normal;
+}
+
+/* Intro */
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 200px;
+}
+
+.intro-text-quality {
+  color: #6b73ff;
+  font-size: 36px;
+}
+
+.intro-text-studio {
+  font-size: 36px;
+}
+
+.intro-text-best {
+  font-size: 24px;
+}
+
+.intro-img {
 }
