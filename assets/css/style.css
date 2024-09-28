@@ -82,4 +82,57 @@ body {
 }
 
 .intro-img {
+  max-width: 800px;
+}
+
+/* TEAM */
+
+.team {
+  padding-top: 70px;
+}
+
+.team-block {
+  background-color: #f6f6f6;
+  border-radius: 20px;
+}
+
+.team-block-text {
+  color: #000000;
+  font-size: 48px;
+  text-align: center;
+  font-weight: 300;
+  padding-top: 50px;
+}
+
+.team-block-list {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.team-block-list-element {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px 20px;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.team-block-list-element-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.team-block-list-element-text-nickname {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.team-block-list-element-text-under {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
 }
