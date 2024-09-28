@@ -1,0 +1,60 @@
+* {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background: rgb(29, 28, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(29, 28, 36, 1) 65%,
+    rgba(25, 23, 74, 1) 100%
+  );
+}
+
+/* CONTAINER */
+
+.container {
+  margin: 0 auto;
+  max-width: 1800px;
+}
+
+/* Header */
+
+.header {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #6b73ff;
+}
+
+.header-navbar {
+  display: flex;
+  font-family: "Kantumruy Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-size: 20px;
+  font-style: normal;
+  gap: 80px;
+}
+
+.header-logo {
+  font-family: "Kantumruy Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 36px;
+  font-style: normal;
+}
