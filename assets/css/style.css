@@ -125,6 +125,12 @@ body {
   align-items: center;
   text-align: center;
   margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-block-list-element:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .team-block-list-element-text {
@@ -183,4 +189,30 @@ body {
 .about-us-block-element-additional-text {
   font-size: 24px;
   color: #000000;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.team-block-list-element,
+.about-us-block-element {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.nav_btn:hover {
+  color: #6b73ff;
+  transition: color 200ms, transform 0.3s;
+  transform: scale(1.1);
 }
